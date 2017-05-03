@@ -1,6 +1,7 @@
 v.1.2
 - Change program and stucture
 - Change software name to Lemasc USB Virus Remover Portable
+- Improove performance and bug fixes
 
 V.1.1 (Stable)
 - Remove Thai laungage
