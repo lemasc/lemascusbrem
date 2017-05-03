@@ -7,26 +7,28 @@ ver | findstr /l "5.1" > nul
 if %ERRORLEVEL% == 0 (goto XP) else (goto V78)
 
 :XP
-%HOMEPATH%\Start Menu\Programs\Startup
+cd %HOMEPATH%\Start Menu\Programs\Startup
 attrib -h -r -s /s /d *.*
 del *.vbs
 del *.ovbss
 del *.vbs_1
 del *.vbs.out
 del *.vbss
-%TEMP%
+cd %TEMP%
 del autorun.exe
 del *.vbs  
+start explorer.exe
 pause
 
 :V78
-%APPDATA%\Roaming\Microsoft\Start Menu\Programs\Startup\
+cd %APPDATA%\Roaming\Microsoft\Start Menu\Programs\Startup\
 del *.vbs
 del *.ovbss
 del *.vbs_1
 del *.vbs.out
 del *.vbss
-%TEMP%
+cd %TEMP%
 del autorun.exe
 del *.vbs
+start explorer.exe
 pause
