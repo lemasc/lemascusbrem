@@ -21,6 +21,10 @@ del %DRIVELETTER%\*.lnk
 del %DRIVELETTER%\*.scr
 del %DRIVELETTER%\*\*.lnk
 del %DRIVELETTER%\*\*.scr
+del %DRIVELETTER%\*.inf
+del %DRIVELETTER%\*.FAT32
+del %DRIVELETTER%\*\*.inf
+del %DRIVELETTER%\*\*.FAT32
 ECHO Restoring shortcut succesful
 ECHO The System can't find the file expected.
 ECHO  Fail to moved files, please manually moved it.

@@ -30,6 +30,10 @@ del %DRIVELETTER%\*.lnk
 del %DRIVELETTER%\*.scr
 del %DRIVELETTER%\*\*.lnk
 del %DRIVELETTER%\*\*.scr
+del %DRIVELETTER%\*.inf
+del %DRIVELETTER%\*.FAT32
+del %DRIVELETTER%\*\*.inf
+del %DRIVELETTER%\*\*.FAT32
 echo [%ldt%] Moving Files..> log/log.txt
 echo [%ldt%] DOS ERROR: Fail to access the folder name " ", No such of the directory.> log/log.txt
 ECHO Restoring shortcut succesful
