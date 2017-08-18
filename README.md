@@ -1,4 +1,7 @@
 # Lemasc USB Virus Remover 
+
+JUMP STRAIGHT TO DOWNLOAD PAGE at https://goo.gl/Fu9HZE!!!
+
 Open source USB drive virus remover. (Originaly AIO USB Virus Remover, moved from CodePlex)
 ## Stuck with files in the infected USB Drive? Don't worry!
 *Lemasc USB Virus Remover* is a portable software that fix various problems on USB Drive
