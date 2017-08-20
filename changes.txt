@@ -1,3 +1,9 @@
+V.1.4
+- Fix "The filename is incorrect" while restore shortcut virus
+- Improve software version displaying
+- SCR Virus Fix now bundled with "CLEAN SHORTCUT MODE"
+- Fix "is not recognized as batch file" error
+
 v.1.3
 - Add support to delete INF and FAT32 files
 

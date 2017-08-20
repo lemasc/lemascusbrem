@@ -1,5 +1,5 @@
 -----------------------------------------------------------------------------------------
-Lemasc USB Virus Remover PORTABLE Edition V.1.3
+Lemasc USB Virus Remover PORTABLE Edition V.1.4
 -----------------------------------------------------------------------------------------
 Features:
 - Remove Shortcut Virus

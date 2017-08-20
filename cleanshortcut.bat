@@ -1,11 +1,12 @@
 @ECHO OFF
 @cls
+set /p ver=<VERSION
 goto printtitle
 
 :printtitle
-@TITLE Lemasc USB Virus Remover V.1.2
+@TITLE Lemasc USB Virus Remover %ver%
 @ECHO -------------------------------------------------------------------------
-@ECHO Lemasc USB Virus Remover Portable Version 1.2
+@ECHO Lemasc USB Virus Remover Portable Version %ver%
 @ECHO Kill *.lnk, autorun.inf, *.vbs, *.scr and more
 @ECHO ------------------------------------------------------------------------
 @ECHO Special Command: -q -s (RemoveShortcut:QuickMode)
@@ -19,19 +20,11 @@ IF "%~d0"=="%DRIVELETTER%" goto cleanshortcut
 attrib -h -r -s /s /d %DRIVELETTER%\*.*
 del %DRIVELETTER%\*.lnk
 del %DRIVELETTER%\*.scr
-del %DRIVELETTER%\*\*.lnk
-del %DRIVELETTER%\*\*.scr
 del %DRIVELETTER%\*.inf
 del %DRIVELETTER%\*.FAT32
-del %DRIVELETTER%\*\*.inf
-del %DRIVELETTER%\*\*.FAT32
 ECHO Restoring shortcut succesful
 ECHO The System can't find the file expected.
 ECHO  Fail to moved files, please manually moved it.
-pause
-goto complete
-
-:complete
 ECHO Command running successfully
 pause
 exit
