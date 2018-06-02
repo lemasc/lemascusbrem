@@ -1,3 +1,10 @@
+V.1.5
+- Big improvements for design and cleaning system
+- Add a menu for easy operation
+- Now all operations are in only one file
+- Change filename to "launcher.bat"
+- Temporary remove CMD log system due to date and time error
+
 V.1.4
 - Fix "The filename is incorrect" while restore shortcut virus
 - Improve software version displaying
@@ -10,7 +17,7 @@ v.1.3
 v.1.2
 - Change program and stucture
 - Change software name to Lemasc USB Virus Remover Portable
-- Improove performance and bug fixes
+- Improve performance and bug fixes
 
 V.1.1 (Stable)
 - Remove Thai laungage
