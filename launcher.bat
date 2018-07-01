@@ -59,7 +59,7 @@ cls
 echo The action "Clean Shortcut" has been executed successfully.
 goto printtitle
 
-:cleanautorunf
+:cleanautorun
 echo Cleaning Autorun, please wait...
 FOR %%x  in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) DO (
     FOR /f  "tokens=3 delims=\:" %%k in ('reg query hklm\system\mounteddevices^|findstr /C:"4300640052006F006D00"')  DO (
