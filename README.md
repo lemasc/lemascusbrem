@@ -20,7 +20,7 @@ No installation requires, just extract and run.
 3. Close all programs, stop all operations and run **"launcher.bat"** with administrator.
 
 ## Lemasc USB Virus Remover is Virus-FREE
-See [VirusTotal Latest Scan for Version 1.5](https://www.virustotal.com/#/file/4d5f4d336fb3a6cf23298df8b353453fe96e107df7c57167788408cce9eb9af3)
+See [VirusTotal Latest Scan for Version 1.5](https://www.virustotal.com/#/file/d8599e584f49d2caed91f0fcd52667921bd159b3bfa0813f2d7be66a78cd521d/detection)
 
 **Notice:** 
 ClamAV detect that we have virus "Win.Trojan.Taskkill-2" because we use **"[TaskKill Command](https://ss64.com/nt/taskkill.html)"**.
